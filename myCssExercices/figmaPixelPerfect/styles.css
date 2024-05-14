@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.background {
+    background-color: #D74949;
+    width: 1440px;
+    height: 684px;
+    top: 32px;
+    position: relative;
+}
+
+.h1 {
+    width: 64px;
+    height: 16px;
+    top: 100px;
+    left: 50px;
+    z-index:1;
+    position: absolute;
+    color:#000000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 16.41px;
+    letter-spacing: 0.0px;
+    text-align: left;
+    font-style: bold;
+    text-shadow: 0px 4px 4px #00000040;
+}
+
+.whiterectangle {
+    position: relative;
+    width: 1110px;
+    height: 615px;
+    left: 165px;
+    background-color: #F3F3F3;
+    display: block;
+}
+
+.footerrectangle {
+    width: 1440px;
+    height: 70px;
+    top: 615px;
+    position: absolute;
+    background: #3A3A3A;
+}
+
+.footer {
+    min-width: 176px;
+    height: 16px;
+    top: 640px;
+    left: 632px;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.spacing {
+    width: 164px;
+    height: 3px;
+    top: -73px;
+    left: -336px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    background-color: #D9D9D9;
+}
+
+p {
+    width: 1009px;
+    height: 23px;
+    top: 154px;
+    left: 215px;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#am {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    text-align: center;
+    text-transform: uppercase;
+    color : #8F2727;
+}
+
+h2 {
+    width: 1009px;
+    height: 19px;
+    top: 128px;
+    left: 50px;
+    z-index: 1;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 18.75px;
+    letter-spacing: 0.07em;
+    text-align: right;
+    color: #000000;
+}
+
+#linkedin {
+    width: 18px;
+    height: 18px;
+    top: 465px;
+    left: 235px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+}
+
+#whatsapp {
+    width: 18px;
+    height: 18px;
+    top: 465px;
+    left: 261px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+}
+
+#john {
+    width: 200px;
+    height: 185px;
+    top: 215px;
+    left: 215px;
+    gap: 0px;
+    border-radius: 15px 15px 0px 0px;
+    opacity: 0px;
+    position: absolute;
+}
+
+.cardrectangle {
+    width: 200px;
+    height: 300px;
+    top: 215px;
+    left: 215px;
+    gap: 0px;
+    border-radius: 15px;
+    opacity: 0px;
+    position: relative;
+    box-shadow: 0px 4px 4px 1px #00000040;
+
+}
+
+#title {
+    min-width: 152px;
+    height: 16px;
+    top: 224px;
+    left: 20px;
+    gap: 0px;
+    opacity: 0px;
+    z-index: 1;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.41px;
+    text-align: left;
+    color:#000000;
+}
+
+#name {
+    width: 64px;
+    height: 16px;
+    top: 205px;
+    left: 20px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color:#000000;
+
+}

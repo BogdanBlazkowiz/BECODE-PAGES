@@ -1,0 +1,29 @@
+h2 {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .a {
+        display: block;
+    }
+}
+@media only screen and (max-width: 1279px) and (min-width: 768px) {
+    .b {
+        display: block;
+    }
+}
+@media only screen and (max-width: 1439px) and (min-width: 1280px){
+    .c {
+        display: block;
+    }
+}
+@media only screen and (max-width: 1919px) and (min-width: 1440px){
+    .d {
+        display: block;
+    }
+}
+@media only screen and (min-width: 1920px){
+    .e {
+        display: block;
+    }
+}
