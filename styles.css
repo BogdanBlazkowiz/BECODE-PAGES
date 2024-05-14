@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Noto+Sans+Symbols:wght@100..900&display=swap');
+.frame {
+    width: 100vw;
+    height: 100vw;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+    display:flex;
+    flex:content;
+    justify-content: center;
+    align-items: center;
+    background: #2D4480;
+}
+
+
+.whitecard {
+    position:relative;
+    width: 288px;
+    height: 469px;
+    border-radius: 27px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    box-shadow: 5px 20px 50px 0px #00000099;
+}
+
+.title {
+    position: absolute;
+    width: 98px;
+    height: 36px;
+    top: -1px;
+    left: 95px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: center;
+    font-family: Noto Sans Symbols;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 36px;
+    color: #292929;
+}
+
+.features {
+    position: absolute;
+    display:flex;
+    width: 176px;
+    height: 195px;
+    top:102px;
+    left:50px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.feature {
+    position: relative;
+    height: 33px;
+    width:auto;
+}
+
+.checkmark {
+    width: 20px;
+    height: 20px;
+    top: 13px;
+}
+
+.feature p {
+    position: absolute;
+    top:-22px;
+    left: 43px;
+    font-family: Noto Sans Symbols;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32.8px;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+
+.pricebreak {
+    width: 188px;
+    margin-left: 50px;
+    margin-top: 307px;
+    border:none;
+    border-top: 1px solid #000000;
+}
+
+.free {
+    position: absolute;
+    top: 283px;
+    left: 95px;
+    font-family: Noto Sans Symbols;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.13em;
+    text-align: center;
+    color: #292929;
+
+}
+
+.forever {
+    position: absolute;
+    top: 328px;
+    left: 122px;
+    font-family: Allan;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #2D4480;
+    font-style: italic;
+}
+
+.getstarted {
+    font-family: Noto Sans Symbols;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32.8px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    width: 113px;
+    height: 33px;
+    top: 0px;
+    left: 34px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    z-index: 2;
+    color: #253868;
+
+}
+
+.yellowbutton {
+    width: 181px;
+    height: 68px;
+    top: 436px;
+    left: 54.5px;
+    gap: 0px;
+    border-radius: 34px;
+    opacity: 0px;
+    position: absolute;
+    background: #FFBC0F;
+    z-index: 1;
+}
