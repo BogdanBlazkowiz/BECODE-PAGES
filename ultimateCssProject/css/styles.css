@@ -21,7 +21,7 @@ img {
 body {
   max-width: 1440px;
   height: 2657px;
-  background-image: url(/deco1.png), linear-gradient(236.56deg, #2c2d65 0.35%, #201f22 100%);
+  background-image: url(/deco1.png), linear-gradient(236.56deg, #555555 0.35%, #201f22 100%);
   background-repeat: no-repeat, no-repeat;
   background-position: 719px -112px, left;
 }
