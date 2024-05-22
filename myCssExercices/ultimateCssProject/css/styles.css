@@ -21,7 +21,7 @@ img {
 body {
   max-width: 1440px;
   height: 2657px;
-  background-image: url(../images/deco1.png), linear-gradient(236.56deg, #2c2d65 0.35%, #201f22 100%);
+  background-image: url("../images/deco1.png"), linear-gradient(236.56deg, #2c2d65 0.35%, #201f22 100%);
   background-repeat: no-repeat, no-repeat;
   background-position: 719px -112px, left;
 }
@@ -96,7 +96,7 @@ header nav ul li a {
   width: 142px;
   z-index: 1;
   content: " ";
-  background-image: url(../images/deco3\ 1.png);
+  background-image: url("../images/deco3 1.png");
   position: absolute;
   left: -43px;
   top: -48px;
@@ -107,7 +107,7 @@ header nav ul li a {
   width: 184px;
   z-index: 1;
   content: " ";
-  background-image: url(../images/deco2.png);
+  background-image: url("../images/deco2.png");
   position: absolute;
   left: 385px;
   top: 216px;
@@ -313,7 +313,7 @@ header nav ul li a {
   width: 142px;
   z-index: 1;
   content: " ";
-  background-image: url(../images/deco3\ 1.png);
+  background-image: url("../images/deco3 1.png");
   position: absolute;
   left: 421px;
   top: -224px;
