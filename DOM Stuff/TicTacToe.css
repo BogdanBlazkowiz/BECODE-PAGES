@@ -1,0 +1,15 @@
+
+
+.board {
+  padding-left: 60px;
+  display: grid;
+  grid-template-columns: 30px 30px 30px;
+  grid-template-rows: 30px 30px 30px;
+}
+
+.cell {
+  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
