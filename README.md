@@ -1,2 +1,2 @@
 # BECODE-PAGES
-Pages for my css exercises
+Pages for my BeCode exercises
