@@ -1,0 +1,13 @@
+.lightbox-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+a {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}

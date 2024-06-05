@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/waypointsTest.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="a"></section>
+    <div id="basic-waypoint"></div>
+    <section class="b"></section>
+</body>
+<script src="noframework.waypoints.js"></script>
+<script>
+    var waypoint = new Waypoint({
+    element: document.getElementById('basic-waypoint'),
+    handler: function(direction) {
+        console.log(direction)
+        if (direction == "down") {
+            alert("Are you sure ? Things are wild down there.")
+        }
+        else {
+            alert("I told you ! ")
+        }
+    }
+    })
+
+
+</script>
+</html>

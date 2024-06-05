@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+
+.menu {
+  height: 100vh;
+  width: 400px;
+  padding-top: 20px;
+  margin-left: 20px;
+  background-color: red;
+  transition: left 2s;
+  position: absolute;
+  left: 10000px;
+}/*# sourceMappingURL=sliderExo.css.map */

@@ -1,0 +1,30 @@
+.swiper {
+    height: 100%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.swiper-button-prev {
+    background-image: url(/images/prev.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.swiper-button-next {
+    background-image: url(/images/next.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.swiper-button-next::after {
+    display: none;
+}
+
+.swiper-button-prev::after {
+    display: none;
+}

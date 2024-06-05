@@ -1,0 +1,24 @@
+section {
+  height: 100vh;
+}
+
+.s1 {
+  background-color: blue;
+}
+
+.s2 {
+  background-color: red;
+}
+
+.s3 {
+  background-color: yellow;
+}
+
+.s4 {
+  background-color: green;
+}
+
+h2 {
+  position: absolute;
+  left: 95vh;
+}/*# sourceMappingURL=aosTest.css.map */

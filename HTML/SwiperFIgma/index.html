@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="css/styles.css">
+        <base href=".">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="image-button-container">
+            <img id="img1" src="https://s3-alpha-sig.figma.com/img/c3bc/d288/953ca91f376c7885f3fde2a4af798b92?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PxOozivxNmhgE5y-mxjaEkFR8Ki9RjLYFMw6ySI~Qz~ZCHnnlEbGFnaayN4qaMLFNu8r7ZjYT1zqVFEvnQGE6~E8QXQw7t4BK1iU70o8GtVp5PRpKhuVSEKpD-SqbEwy~SPYb74rKr1YxWrgyJFhb9eHt7e8CjsxZ~DedAUUYSk~CKfxoJXYShooIynlL3JMtT6UpFVMmtYoRfzCp-2goH0U~bsHXJsZtRX5LaGeniVLwcv7HIpz19cba9k9k8xwE0HKhzkV2XIk9r84QcUJMqyrw8EYQLP61KfXvV84m~dp-Xw2gTD9dRIFMPdHwq5LplloJ7PHVOqF7dcqzCs-Dg__">
+            <img id="img2" src="images/image 2.svg">
+            <img id="img3" src="images/image 3.svg">
+            <img id="img4" src="images/image 4.svg">
+            <img id="img5" src="images/image 5.svg">
+            <img id="img6" src="images/image 6.svg">
+            <img id="img7" src="images/image 7.svg">
+            <img id="img8" src="images/image 8.svg">
+            <img id="img9" src="images/image 9.svg">
+        </div>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <h1>Eddard Stark</h1>
+                    <h2>House Lorem</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur maxime fuga sint sed sunt facilis omnis aliquam id dolores laborum! Aliquid quidem, culpa modi assumenda ab blanditiis nesciunt dicta vero!</p>
+                </div>
+                <div class="swiper-slide">
+                    <h1>Jon Snow</h1>
+                    <h2>House Stark</h2>
+                    <p>Jon Snow, born Aegon Targaryen, is the son of Lyanna Stark and Rhaegar Targaryen, the late Prince of Dragonstone. From infancy, Jon is presented as the bastard son of Lord Eddard Stark, Lyanna's brother, and raised alongside Eddard's lawful children at Winterfell. Jon's true parentage is kept secret from everyone, including Jon himself, in order to protect him from those that sought the complete annihilation of House Targaryen.</p>
+                </div>
+                <div class="swiper-slide">
+                    <h1>Jamie Lannister</h1>
+                    <h2>House Lannister</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur maxime fuga sint sed sunt facilis omnis aliquam id dolores laborum! Aliquid quidem, culpa modi assumenda ab blanditiis nesciunt dicta vero!</p>
+                </div>
+                <div class="swiper-slide">
+                    <h1>Tyrion Lannister</h1>
+                    <h2>House Lannister</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur maxime fuga sint sed sunt facilis omnis aliquam id dolores laborum! Aliquid quidem, culpa modi assumenda ab blanditiis nesciunt dicta vero!</p>
+                </div>
+                <div class="swiper-slide">
+                    <h1>Cersei Lannister</h1>
+                    <h2>House Lannister</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur maxime fuga sint sed sunt facilis omnis aliquam id dolores laborum! Aliquid quidem, culpa modi assumenda ab blanditiis nesciunt dicta vero!</p>
+                </div>
+                <div class="swiper-slide">
+                    <h1>Joffrey Baratheon</h1>
+                    <h2>House Lannister</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur maxime fuga sint sed sunt facilis omnis aliquam id dolores laborum! Aliquid quidem, culpa modi assumenda ab blanditiis nesciunt dicta vero!</p>
+                </div>
+                <div class="swiper-slide">
+                    <h1>Daenerys Targarien</h1>
+                    <h2>House Targarien</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur maxime fuga sint sed sunt facilis omnis aliquam id dolores laborum! Aliquid quidem, culpa modi assumenda ab blanditiis nesciunt dicta vero!</p>
+                </div>
+                <div class="swiper-slide">
+                    <h1>Arya Stark</h1>
+                    <h2>House Stark</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur maxime fuga sint sed sunt facilis omnis aliquam id dolores laborum! Aliquid quidem, culpa modi assumenda ab blanditiis nesciunt dicta vero!</p>
+                </div>
+                <div class="swiper-slide">
+                    <h1>Sansa Stark</h1>
+                    <h2>House Stark</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur maxime fuga sint sed sunt facilis omnis aliquam id dolores laborum! Aliquid quidem, culpa modi assumenda ab blanditiis nesciunt dicta vero!</p>
+                </div>
+            </div>
+        </div>
+
+    </body>
+    <script
+        src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+    direction: 'vertical',
+    loop: true,
+});
+document.querySelectorAll("img").forEach(image => {
+        if (image.id != "img1") {
+                image.style.opacity = "0.25";
+        }
+        })
+buttons = document.querySelectorAll("img");
+buttons.forEach(button => {
+    button.addEventListener("click", (evt) => {
+        button = evt.currentTarget;
+        document.querySelectorAll("img").forEach(image => {
+            image.style.opacity = "0.25";
+        })
+        button.style.opacity = "1";
+        swiper.slideTo(button.id[3]-1)
+    })
+});
+</script>
+</html>
