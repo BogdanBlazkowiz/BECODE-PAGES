@@ -31,6 +31,7 @@ function todoList() {
         buttonDel.style.margin = "15px";
         buttonDel.addEventListener("click", (e) => {
             btn = e.currentTarget
+            console.log(btn.parentElement)
             localStorage.removeItem(btn.parentElement.querySelector("p").innerText)
             todoList()
         })
